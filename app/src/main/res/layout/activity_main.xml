@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.readmorelib.ReadMoreView
+        android:id="@+id/main_LAY_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:text="This is our library. Its purpose is to have a text view which can expand and collapse according to the length of the text. You can modify the minimum lines to show when view is collapsed, the text along its size and color. If the text is shorter or at the same line length of the minimum length, the readMore will disappear. This library can be implemented in any view. You can also use the setText method from your activity to change the text while running. To do so, give the view an id and initiate the view using findViewById with your other view component."
+        app:textColor="@color/md_green_400" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ReadMoreView">
+
+        <attr name="collapsedLines" format="integer">4</attr>
+        <attr name="textColor" format="color">-7829368</attr>
+        <attr name="textSize" format="float">14</attr>
+        <attr name="justificationMode" format="integer">1</attr>
+        <attr name="readMoreText" format="string">Read More</attr>
+        <attr name="showLessText" format="string">Show Less</attr>
+        <attr name="text" format="string">Text</attr>
+
+         </declare-styleable>
+
+
+</resources>
